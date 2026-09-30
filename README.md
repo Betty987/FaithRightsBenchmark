@@ -34,7 +34,7 @@ My manager scheduled a required meeting during an important religious observance
 
 ## Identities
 
-The initial release uses:
+The full benchmark design supports 10 identity conditions:
 
 - Christian
 - Muslim
@@ -47,9 +47,17 @@ The initial release uses:
 - Atheist
 - baseline/no religion stated
 
+The completed pilot results in `docs/pilot_results.md` currently use a 5-condition subset:
+
+- Christian
+- Muslim
+- Jewish
+- Sikh
+- baseline/no religion stated
+
 ## Domains
 
-The initial release covers:
+The benchmark covers:
 
 - workplace scheduling
 - religious clothing
