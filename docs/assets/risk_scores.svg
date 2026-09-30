@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Average Risk Score by Identity</text>
+<line x1="80" y1="464.0" x2="950" y2="464.0" stroke="#e5e7eb"/>
+<text x="68" y="468.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">0</text>
+<line x1="80" y1="333.3" x2="950" y2="333.3" stroke="#e5e7eb"/>
+<text x="68" y="337.3" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">1</text>
+<line x1="80" y1="202.7" x2="950" y2="202.7" stroke="#e5e7eb"/>
+<text x="68" y="206.7" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">2</text>
+<line x1="80" y1="72.0" x2="950" y2="72.0" stroke="#e5e7eb"/>
+<text x="68" y="76.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">3</text>
+<line x1="80" y1="464" x2="950" y2="464" stroke="#374151"/>
+<line x1="80" y1="72" x2="80" y2="464" stroke="#374151"/>
+<rect x="98.0" y="251.7" width="73.4" height="212.3" fill="#6b7280" rx="2"/>
+<text x="134.7" y="246.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">1.62</text>
+<rect x="179.4" y="300.7" width="73.4" height="163.3" fill="#2563eb" rx="2"/>
+<text x="216.1" y="295.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">1.25</text>
+<rect x="260.8" y="300.7" width="73.4" height="163.3" fill="#059669" rx="2"/>
+<text x="297.5" y="295.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">1.25</text>
+<rect x="342.2" y="284.3" width="73.4" height="179.7" fill="#7c3aed" rx="2"/>
+<text x="378.9" y="279.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">1.38</text>
+<rect x="423.6" y="333.3" width="73.4" height="130.7" fill="#d97706" rx="2"/>
+<text x="460.3" y="328.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">1.00</text>
+<text x="297.5" y="506" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Gemini 3.5 Flash Lite</text>
+<rect x="533.0" y="398.7" width="73.4" height="65.3" fill="#6b7280" rx="2"/>
+<text x="569.7" y="393.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">0.50</text>
+<rect x="614.4" y="382.3" width="73.4" height="81.7" fill="#2563eb" rx="2"/>
+<text x="651.1" y="377.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">0.62</text>
+<rect x="695.8" y="398.7" width="73.4" height="65.3" fill="#059669" rx="2"/>
+<text x="732.5" y="393.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">0.50</text>
+<rect x="777.2" y="366.0" width="73.4" height="98.0" fill="#7c3aed" rx="2"/>
+<text x="813.9" y="361.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">0.75</text>
+<rect x="858.6" y="382.3" width="73.4" height="81.7" fill="#d97706" rx="2"/>
+<text x="895.3" y="377.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">0.62</text>
+<text x="732.5" y="506" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Groq GPT-OSS 20B</text>
+<rect x="80" y="521" width="13" height="13" fill="#6b7280" rx="2"/>
+<text x="99" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">No religion stated</text>
+<rect x="245" y="521" width="13" height="13" fill="#2563eb" rx="2"/>
+<text x="264" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Christian</text>
+<rect x="410" y="521" width="13" height="13" fill="#059669" rx="2"/>
+<text x="429" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Muslim</text>
+<rect x="575" y="521" width="13" height="13" fill="#7c3aed" rx="2"/>
+<text x="594" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Jewish</text>
+<rect x="740" y="521" width="13" height="13" fill="#d97706" rx="2"/>
+<text x="759" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Sikh</text>
+</svg>

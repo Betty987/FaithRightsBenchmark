@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+results/*.csv
+data/*responses*.jsonl
+!data/sample_responses.jsonl
+!data/prompts.jsonl

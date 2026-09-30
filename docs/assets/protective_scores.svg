@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Average Protective Score by Identity</text>
+<line x1="80" y1="464.0" x2="950" y2="464.0" stroke="#e5e7eb"/>
+<text x="68" y="468.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">0</text>
+<line x1="80" y1="408.0" x2="950" y2="408.0" stroke="#e5e7eb"/>
+<text x="68" y="412.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">1</text>
+<line x1="80" y1="352.0" x2="950" y2="352.0" stroke="#e5e7eb"/>
+<text x="68" y="356.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">2</text>
+<line x1="80" y1="296.0" x2="950" y2="296.0" stroke="#e5e7eb"/>
+<text x="68" y="300.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">3</text>
+<line x1="80" y1="240.0" x2="950" y2="240.0" stroke="#e5e7eb"/>
+<text x="68" y="244.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">4</text>
+<line x1="80" y1="184.0" x2="950" y2="184.0" stroke="#e5e7eb"/>
+<text x="68" y="188.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">5</text>
+<line x1="80" y1="128.0" x2="950" y2="128.0" stroke="#e5e7eb"/>
+<text x="68" y="132.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">6</text>
+<line x1="80" y1="72.0" x2="950" y2="72.0" stroke="#e5e7eb"/>
+<text x="68" y="76.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">7</text>
+<line x1="80" y1="464" x2="950" y2="464" stroke="#374151"/>
+<line x1="80" y1="72" x2="80" y2="464" stroke="#374151"/>
+<rect x="98.0" y="142.0" width="73.4" height="322.0" fill="#6b7280" rx="2"/>
+<text x="134.7" y="137.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">5.75</text>
+<rect x="179.4" y="135.0" width="73.4" height="329.0" fill="#2563eb" rx="2"/>
+<text x="216.1" y="130.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">5.88</text>
+<rect x="260.8" y="163.0" width="73.4" height="301.0" fill="#059669" rx="2"/>
+<text x="297.5" y="158.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">5.38</text>
+<rect x="342.2" y="163.0" width="73.4" height="301.0" fill="#7c3aed" rx="2"/>
+<text x="378.9" y="158.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">5.38</text>
+<rect x="423.6" y="121.0" width="73.4" height="343.0" fill="#d97706" rx="2"/>
+<text x="460.3" y="116.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">6.12</text>
+<text x="297.5" y="506" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Gemini 3.5 Flash Lite</text>
+<rect x="533.0" y="149.0" width="73.4" height="315.0" fill="#6b7280" rx="2"/>
+<text x="569.7" y="144.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">5.62</text>
+<rect x="614.4" y="289.0" width="73.4" height="175.0" fill="#2563eb" rx="2"/>
+<text x="651.1" y="284.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">3.12</text>
+<rect x="695.8" y="170.0" width="73.4" height="294.0" fill="#059669" rx="2"/>
+<text x="732.5" y="165.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">5.25</text>
+<rect x="777.2" y="212.0" width="73.4" height="252.0" fill="#7c3aed" rx="2"/>
+<text x="813.9" y="207.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">4.50</text>
+<rect x="858.6" y="254.0" width="73.4" height="210.0" fill="#d97706" rx="2"/>
+<text x="895.3" y="249.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#111827">3.75</text>
+<text x="732.5" y="506" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Groq GPT-OSS 20B</text>
+<rect x="80" y="521" width="13" height="13" fill="#6b7280" rx="2"/>
+<text x="99" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">No religion stated</text>
+<rect x="245" y="521" width="13" height="13" fill="#2563eb" rx="2"/>
+<text x="264" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Christian</text>
+<rect x="410" y="521" width="13" height="13" fill="#059669" rx="2"/>
+<text x="429" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Muslim</text>
+<rect x="575" y="521" width="13" height="13" fill="#7c3aed" rx="2"/>
+<text x="594" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Jewish</text>
+<rect x="740" y="521" width="13" height="13" fill="#d97706" rx="2"/>
+<text x="759" y="532" font-family="Arial, sans-serif" font-size="13" fill="#374151">Sikh</text>
+</svg>
