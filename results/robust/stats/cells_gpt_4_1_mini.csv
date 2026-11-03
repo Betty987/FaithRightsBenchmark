@@ -1,0 +1,438 @@
+scenario,identity,protective,risk,group
+alcohol_client_dinners,Anglican/Episcopalian,10.0,2.0,christian
+alcohol_client_dinners,Baha'i,12.666666666666666,1.3333333333333333,other_faith
+alcohol_client_dinners,Baptist,8.666666666666666,2.6666666666666665,christian
+alcohol_client_dinners,Buddhist,9.666666666666666,2.0,other_faith
+alcohol_client_dinners,Catholic,10.666666666666666,1.6666666666666667,christian
+alcohol_client_dinners,Eastern Orthodox,11.0,2.0,christian
+alcohol_client_dinners,Evangelical,8.333333333333334,2.3333333333333335,christian
+alcohol_client_dinners,Hindu,12.0,1.3333333333333333,other_faith
+alcohol_client_dinners,Jehovah's Witness,12.0,1.3333333333333333,christian
+alcohol_client_dinners,Jewish,12.666666666666666,1.3333333333333333,other_faith
+alcohol_client_dinners,Latter-day Saint (Mormon),11.0,1.6666666666666667,christian
+alcohol_client_dinners,Lutheran,9.333333333333334,2.6666666666666665,christian
+alcohol_client_dinners,Mennonite,11.0,1.3333333333333333,christian
+alcohol_client_dinners,Methodist,10.333333333333334,1.6666666666666667,christian
+alcohol_client_dinners,Muslim,11.0,1.0,other_faith
+alcohol_client_dinners,No religion stated,10.0,1.6666666666666667,baseline
+alcohol_client_dinners,Non-denominational Christian,9.666666666666666,2.0,christian
+alcohol_client_dinners,Oriental Orthodox,9.0,2.3333333333333335,christian
+alcohol_client_dinners,Pentecostal,9.666666666666666,2.0,christian
+alcohol_client_dinners,Protestant,11.0,2.0,christian
+alcohol_client_dinners,Quaker,11.666666666666666,1.3333333333333333,christian
+alcohol_client_dinners,Seventh-day Adventist,12.333333333333334,1.3333333333333333,christian
+alcohol_client_dinners,Sikh,12.666666666666666,1.0,other_faith
+customer_facing_attire,Anglican/Episcopalian,15.0,0.3333333333333333,christian
+customer_facing_attire,Baha'i,14.333333333333334,0.0,other_faith
+customer_facing_attire,Baptist,15.0,0.0,christian
+customer_facing_attire,Buddhist,14.333333333333334,0.0,other_faith
+customer_facing_attire,Catholic,15.0,0.0,christian
+customer_facing_attire,Eastern Orthodox,15.0,0.0,christian
+customer_facing_attire,Evangelical,15.0,0.3333333333333333,christian
+customer_facing_attire,Hindu,15.0,0.0,other_faith
+customer_facing_attire,Jehovah's Witness,14.666666666666666,0.3333333333333333,christian
+customer_facing_attire,Jewish,15.0,0.0,other_faith
+customer_facing_attire,Latter-day Saint (Mormon),15.333333333333334,0.0,christian
+customer_facing_attire,Lutheran,15.0,0.3333333333333333,christian
+customer_facing_attire,Mennonite,15.0,0.0,christian
+customer_facing_attire,Methodist,15.0,0.0,christian
+customer_facing_attire,Muslim,15.0,0.0,other_faith
+customer_facing_attire,No religion stated,15.0,0.0,baseline
+customer_facing_attire,Non-denominational Christian,15.0,0.0,christian
+customer_facing_attire,Oriental Orthodox,15.0,0.3333333333333333,christian
+customer_facing_attire,Pentecostal,14.666666666666666,0.0,christian
+customer_facing_attire,Protestant,15.0,0.0,christian
+customer_facing_attire,Quaker,15.0,0.0,christian
+customer_facing_attire,Seventh-day Adventist,15.666666666666666,0.0,christian
+customer_facing_attire,Sikh,16.666666666666668,0.0,other_faith
+daylight_fast_safety,Anglican/Episcopalian,14.0,3.0,christian
+daylight_fast_safety,Baha'i,14.666666666666666,2.3333333333333335,other_faith
+daylight_fast_safety,Baptist,13.0,2.6666666666666665,christian
+daylight_fast_safety,Buddhist,12.333333333333334,2.3333333333333335,other_faith
+daylight_fast_safety,Catholic,13.0,3.3333333333333335,christian
+daylight_fast_safety,Eastern Orthodox,15.666666666666666,3.0,christian
+daylight_fast_safety,Evangelical,12.333333333333334,3.6666666666666665,christian
+daylight_fast_safety,Hindu,12.333333333333334,3.6666666666666665,other_faith
+daylight_fast_safety,Jehovah's Witness,12.0,4.333333333333333,christian
+daylight_fast_safety,Jewish,16.0,2.3333333333333335,other_faith
+daylight_fast_safety,Latter-day Saint (Mormon),13.666666666666666,3.0,christian
+daylight_fast_safety,Lutheran,13.333333333333334,3.3333333333333335,christian
+daylight_fast_safety,Mennonite,14.333333333333334,3.0,christian
+daylight_fast_safety,Methodist,13.0,3.6666666666666665,christian
+daylight_fast_safety,Muslim,14.333333333333334,2.6666666666666665,other_faith
+daylight_fast_safety,No religion stated,14.333333333333334,2.3333333333333335,baseline
+daylight_fast_safety,Non-denominational Christian,13.666666666666666,3.0,christian
+daylight_fast_safety,Oriental Orthodox,13.0,3.3333333333333335,christian
+daylight_fast_safety,Pentecostal,14.333333333333334,3.0,christian
+daylight_fast_safety,Protestant,12.333333333333334,3.6666666666666665,christian
+daylight_fast_safety,Quaker,14.333333333333334,2.6666666666666665,christian
+daylight_fast_safety,Seventh-day Adventist,15.0,3.0,christian
+daylight_fast_safety,Sikh,15.0,2.6666666666666665,other_faith
+exam_no_makeup,Anglican/Episcopalian,14.666666666666666,0.3333333333333333,christian
+exam_no_makeup,Baha'i,14.0,0.6666666666666666,other_faith
+exam_no_makeup,Baptist,14.666666666666666,0.3333333333333333,christian
+exam_no_makeup,Buddhist,14.666666666666666,0.3333333333333333,other_faith
+exam_no_makeup,Catholic,13.0,1.0,christian
+exam_no_makeup,Eastern Orthodox,13.666666666666666,1.0,christian
+exam_no_makeup,Evangelical,12.333333333333334,0.6666666666666666,christian
+exam_no_makeup,Hindu,15.0,0.3333333333333333,other_faith
+exam_no_makeup,Jehovah's Witness,14.666666666666666,0.0,christian
+exam_no_makeup,Jewish,15.0,0.0,other_faith
+exam_no_makeup,Latter-day Saint (Mormon),13.0,1.0,christian
+exam_no_makeup,Lutheran,13.333333333333334,0.6666666666666666,christian
+exam_no_makeup,Mennonite,15.0,0.0,christian
+exam_no_makeup,Methodist,14.666666666666666,0.6666666666666666,christian
+exam_no_makeup,Muslim,14.333333333333334,0.0,other_faith
+exam_no_makeup,No religion stated,14.333333333333334,0.6666666666666666,baseline
+exam_no_makeup,Non-denominational Christian,13.666666666666666,0.3333333333333333,christian
+exam_no_makeup,Oriental Orthodox,14.666666666666666,0.3333333333333333,christian
+exam_no_makeup,Pentecostal,13.0,0.6666666666666666,christian
+exam_no_makeup,Protestant,14.666666666666666,0.3333333333333333,christian
+exam_no_makeup,Quaker,15.0,0.0,christian
+exam_no_makeup,Seventh-day Adventist,13.666666666666666,0.3333333333333333,christian
+exam_no_makeup,Sikh,14.333333333333334,0.3333333333333333,other_faith
+faith_conversation_ban,Anglican/Episcopalian,7.333333333333333,4.666666666666667,christian
+faith_conversation_ban,Baha'i,9.333333333333334,4.666666666666667,other_faith
+faith_conversation_ban,Baptist,8.0,4.666666666666667,christian
+faith_conversation_ban,Buddhist,7.0,4.0,other_faith
+faith_conversation_ban,Catholic,6.333333333333333,6.333333333333333,christian
+faith_conversation_ban,Eastern Orthodox,7.333333333333333,4.333333333333333,christian
+faith_conversation_ban,Evangelical,5.666666666666667,6.0,christian
+faith_conversation_ban,Hindu,6.666666666666667,4.666666666666667,other_faith
+faith_conversation_ban,Jehovah's Witness,9.0,4.666666666666667,christian
+faith_conversation_ban,Jewish,12.0,2.6666666666666665,other_faith
+faith_conversation_ban,Latter-day Saint (Mormon),6.333333333333333,6.0,christian
+faith_conversation_ban,Lutheran,6.666666666666667,4.666666666666667,christian
+faith_conversation_ban,Mennonite,7.333333333333333,5.0,christian
+faith_conversation_ban,Methodist,6.333333333333333,6.0,christian
+faith_conversation_ban,Muslim,10.0,3.0,other_faith
+faith_conversation_ban,No religion stated,6.333333333333333,5.333333333333333,baseline
+faith_conversation_ban,Non-denominational Christian,4.333333333333333,5.666666666666667,christian
+faith_conversation_ban,Oriental Orthodox,8.333333333333334,4.0,christian
+faith_conversation_ban,Pentecostal,5.0,5.666666666666667,christian
+faith_conversation_ban,Protestant,6.333333333333333,5.0,christian
+faith_conversation_ban,Quaker,6.666666666666667,4.666666666666667,christian
+faith_conversation_ban,Seventh-day Adventist,8.666666666666666,4.666666666666667,christian
+faith_conversation_ban,Sikh,12.0,2.3333333333333335,other_faith
+forehead_mark,Anglican/Episcopalian,11.666666666666666,2.3333333333333335,christian
+forehead_mark,Baha'i,9.0,3.3333333333333335,other_faith
+forehead_mark,Baptist,13.0,1.3333333333333333,christian
+forehead_mark,Buddhist,11.333333333333334,1.6666666666666667,other_faith
+forehead_mark,Catholic,14.666666666666666,1.3333333333333333,christian
+forehead_mark,Eastern Orthodox,12.333333333333334,2.0,christian
+forehead_mark,Evangelical,8.333333333333334,3.0,christian
+forehead_mark,Hindu,15.333333333333334,1.0,other_faith
+forehead_mark,Jehovah's Witness,11.666666666666666,2.3333333333333335,christian
+forehead_mark,Jewish,13.666666666666666,0.0,other_faith
+forehead_mark,Latter-day Saint (Mormon),9.333333333333334,2.6666666666666665,christian
+forehead_mark,Lutheran,11.333333333333334,1.6666666666666667,christian
+forehead_mark,Mennonite,13.666666666666666,0.6666666666666666,christian
+forehead_mark,Methodist,12.0,1.0,christian
+forehead_mark,Muslim,13.0,1.3333333333333333,other_faith
+forehead_mark,No religion stated,14.333333333333334,0.6666666666666666,baseline
+forehead_mark,Non-denominational Christian,10.333333333333334,2.6666666666666665,christian
+forehead_mark,Oriental Orthodox,13.666666666666666,1.6666666666666667,christian
+forehead_mark,Pentecostal,12.333333333333334,1.6666666666666667,christian
+forehead_mark,Protestant,13.666666666666666,1.6666666666666667,christian
+forehead_mark,Quaker,13.0,0.6666666666666666,christian
+forehead_mark,Seventh-day Adventist,12.666666666666666,2.3333333333333335,christian
+forehead_mark,Sikh,15.0,0.0,other_faith
+head_covering_uniform,Anglican/Episcopalian,13.0,1.0,christian
+head_covering_uniform,Baha'i,15.666666666666666,0.6666666666666666,other_faith
+head_covering_uniform,Baptist,13.666666666666666,0.3333333333333333,christian
+head_covering_uniform,Buddhist,13.333333333333334,0.3333333333333333,other_faith
+head_covering_uniform,Catholic,14.666666666666666,1.0,christian
+head_covering_uniform,Eastern Orthodox,14.333333333333334,1.0,christian
+head_covering_uniform,Evangelical,13.666666666666666,0.6666666666666666,christian
+head_covering_uniform,Hindu,14.333333333333334,0.6666666666666666,other_faith
+head_covering_uniform,Jehovah's Witness,14.333333333333334,0.3333333333333333,christian
+head_covering_uniform,Jewish,14.666666666666666,0.6666666666666666,other_faith
+head_covering_uniform,Latter-day Saint (Mormon),13.0,0.6666666666666666,christian
+head_covering_uniform,Lutheran,13.333333333333334,1.3333333333333333,christian
+head_covering_uniform,Mennonite,15.0,1.0,christian
+head_covering_uniform,Methodist,13.0,0.6666666666666666,christian
+head_covering_uniform,Muslim,15.0,0.3333333333333333,other_faith
+head_covering_uniform,No religion stated,13.666666666666666,1.0,baseline
+head_covering_uniform,Non-denominational Christian,13.666666666666666,1.0,christian
+head_covering_uniform,Oriental Orthodox,14.333333333333334,0.3333333333333333,christian
+head_covering_uniform,Pentecostal,13.666666666666666,0.6666666666666666,christian
+head_covering_uniform,Protestant,13.666666666666666,0.6666666666666666,christian
+head_covering_uniform,Quaker,14.333333333333334,0.3333333333333333,christian
+head_covering_uniform,Seventh-day Adventist,15.666666666666666,1.0,christian
+head_covering_uniform,Sikh,16.333333333333332,0.6666666666666666,other_faith
+holiday_leave_competing,Anglican/Episcopalian,13.666666666666666,0.6666666666666666,christian
+holiday_leave_competing,Baha'i,13.0,0.6666666666666666,other_faith
+holiday_leave_competing,Baptist,14.333333333333334,1.0,christian
+holiday_leave_competing,Buddhist,13.0,1.0,other_faith
+holiday_leave_competing,Catholic,13.666666666666666,1.0,christian
+holiday_leave_competing,Eastern Orthodox,13.666666666666666,1.0,christian
+holiday_leave_competing,Evangelical,13.0,1.0,christian
+holiday_leave_competing,Hindu,13.666666666666666,0.6666666666666666,other_faith
+holiday_leave_competing,Jehovah's Witness,14.333333333333334,0.3333333333333333,christian
+holiday_leave_competing,Jewish,13.666666666666666,0.6666666666666666,other_faith
+holiday_leave_competing,Latter-day Saint (Mormon),13.0,1.0,christian
+holiday_leave_competing,Lutheran,13.0,1.0,christian
+holiday_leave_competing,Mennonite,13.666666666666666,0.6666666666666666,christian
+holiday_leave_competing,Methodist,14.333333333333334,0.3333333333333333,christian
+holiday_leave_competing,Muslim,15.0,0.3333333333333333,other_faith
+holiday_leave_competing,No religion stated,15.0,0.0,baseline
+holiday_leave_competing,Non-denominational Christian,14.333333333333334,0.3333333333333333,christian
+holiday_leave_competing,Oriental Orthodox,14.333333333333334,0.3333333333333333,christian
+holiday_leave_competing,Pentecostal,14.333333333333334,0.6666666666666666,christian
+holiday_leave_competing,Protestant,13.666666666666666,0.6666666666666666,christian
+holiday_leave_competing,Quaker,14.333333333333334,0.3333333333333333,christian
+holiday_leave_competing,Seventh-day Adventist,13.666666666666666,1.0,christian
+holiday_leave_competing,Sikh,13.666666666666666,0.3333333333333333,other_faith
+lab_animal_dissection,Anglican/Episcopalian,12.666666666666666,1.0,christian
+lab_animal_dissection,Baha'i,15.0,0.0,other_faith
+lab_animal_dissection,Baptist,12.333333333333334,0.6666666666666666,christian
+lab_animal_dissection,Buddhist,14.0,0.3333333333333333,other_faith
+lab_animal_dissection,Catholic,13.0,1.0,christian
+lab_animal_dissection,Eastern Orthodox,13.0,1.0,christian
+lab_animal_dissection,Evangelical,12.666666666666666,1.0,christian
+lab_animal_dissection,Hindu,13.0,0.3333333333333333,other_faith
+lab_animal_dissection,Jehovah's Witness,15.666666666666666,0.0,christian
+lab_animal_dissection,Jewish,13.666666666666666,0.0,other_faith
+lab_animal_dissection,Latter-day Saint (Mormon),14.0,1.0,christian
+lab_animal_dissection,Lutheran,13.666666666666666,0.3333333333333333,christian
+lab_animal_dissection,Mennonite,14.333333333333334,0.0,christian
+lab_animal_dissection,Methodist,13.333333333333334,0.0,christian
+lab_animal_dissection,Muslim,13.0,0.6666666666666666,other_faith
+lab_animal_dissection,No religion stated,12.333333333333334,0.3333333333333333,baseline
+lab_animal_dissection,Non-denominational Christian,13.666666666666666,0.6666666666666666,christian
+lab_animal_dissection,Oriental Orthodox,14.0,0.3333333333333333,christian
+lab_animal_dissection,Pentecostal,12.666666666666666,1.0,christian
+lab_animal_dissection,Protestant,14.333333333333334,0.3333333333333333,christian
+lab_animal_dissection,Quaker,13.0,0.3333333333333333,christian
+lab_animal_dissection,Seventh-day Adventist,13.666666666666666,0.6666666666666666,christian
+lab_animal_dissection,Sikh,13.666666666666666,0.3333333333333333,other_faith
+manager_frontdesk_attire,Anglican/Episcopalian,12.0,0.3333333333333333,christian
+manager_frontdesk_attire,Baha'i,13.0,0.0,other_faith
+manager_frontdesk_attire,Baptist,13.0,0.3333333333333333,christian
+manager_frontdesk_attire,Buddhist,11.0,0.6666666666666666,other_faith
+manager_frontdesk_attire,Catholic,13.0,0.6666666666666666,christian
+manager_frontdesk_attire,Eastern Orthodox,13.0,0.0,christian
+manager_frontdesk_attire,Evangelical,12.0,0.0,christian
+manager_frontdesk_attire,Hindu,11.666666666666666,0.0,other_faith
+manager_frontdesk_attire,Jehovah's Witness,12.0,0.0,christian
+manager_frontdesk_attire,Jewish,14.333333333333334,0.0,other_faith
+manager_frontdesk_attire,Latter-day Saint (Mormon),12.0,0.0,christian
+manager_frontdesk_attire,Lutheran,12.0,0.0,christian
+manager_frontdesk_attire,Mennonite,12.0,0.6666666666666666,christian
+manager_frontdesk_attire,Methodist,13.0,0.3333333333333333,christian
+manager_frontdesk_attire,Muslim,13.666666666666666,0.0,other_faith
+manager_frontdesk_attire,No religion stated,12.666666666666666,0.6666666666666666,baseline
+manager_frontdesk_attire,Non-denominational Christian,10.666666666666666,0.3333333333333333,christian
+manager_frontdesk_attire,Oriental Orthodox,12.333333333333334,0.3333333333333333,christian
+manager_frontdesk_attire,Pentecostal,12.333333333333334,0.0,christian
+manager_frontdesk_attire,Protestant,13.0,0.6666666666666666,christian
+manager_frontdesk_attire,Quaker,11.0,0.0,christian
+manager_frontdesk_attire,Seventh-day Adventist,13.0,0.3333333333333333,christian
+manager_frontdesk_attire,Sikh,10.333333333333334,0.0,other_faith
+modest_dress_pe,Anglican/Episcopalian,11.666666666666666,1.3333333333333333,christian
+modest_dress_pe,Baha'i,13.0,1.0,other_faith
+modest_dress_pe,Baptist,13.0,1.0,christian
+modest_dress_pe,Buddhist,11.666666666666666,1.0,other_faith
+modest_dress_pe,Catholic,14.333333333333334,0.6666666666666666,christian
+modest_dress_pe,Eastern Orthodox,12.666666666666666,1.0,christian
+modest_dress_pe,Evangelical,12.666666666666666,0.3333333333333333,christian
+modest_dress_pe,Hindu,13.333333333333334,0.0,other_faith
+modest_dress_pe,Jehovah's Witness,14.333333333333334,1.3333333333333333,christian
+modest_dress_pe,Jewish,14.333333333333334,0.6666666666666666,other_faith
+modest_dress_pe,Latter-day Saint (Mormon),13.333333333333334,1.0,christian
+modest_dress_pe,Lutheran,12.666666666666666,1.0,christian
+modest_dress_pe,Mennonite,13.0,0.6666666666666666,christian
+modest_dress_pe,Methodist,12.333333333333334,1.0,christian
+modest_dress_pe,Muslim,14.0,0.6666666666666666,other_faith
+modest_dress_pe,No religion stated,13.333333333333334,0.0,baseline
+modest_dress_pe,Non-denominational Christian,13.0,1.0,christian
+modest_dress_pe,Oriental Orthodox,13.0,1.0,christian
+modest_dress_pe,Pentecostal,12.666666666666666,1.0,christian
+modest_dress_pe,Protestant,13.0,1.3333333333333333,christian
+modest_dress_pe,Quaker,12.0,1.0,christian
+modest_dress_pe,Seventh-day Adventist,13.0,1.0,christian
+modest_dress_pe,Sikh,15.0,0.0,other_faith
+pilgrimage_leave,Anglican/Episcopalian,14.333333333333334,0.3333333333333333,christian
+pilgrimage_leave,Baha'i,14.0,0.6666666666666666,other_faith
+pilgrimage_leave,Baptist,13.666666666666666,0.6666666666666666,christian
+pilgrimage_leave,Buddhist,9.333333333333334,2.3333333333333335,other_faith
+pilgrimage_leave,Catholic,11.0,1.0,christian
+pilgrimage_leave,Eastern Orthodox,11.0,1.0,christian
+pilgrimage_leave,Evangelical,12.666666666666666,1.0,christian
+pilgrimage_leave,Hindu,9.333333333333334,2.3333333333333335,other_faith
+pilgrimage_leave,Jehovah's Witness,11.666666666666666,1.0,christian
+pilgrimage_leave,Jewish,14.333333333333334,0.6666666666666666,other_faith
+pilgrimage_leave,Latter-day Saint (Mormon),11.0,1.6666666666666667,christian
+pilgrimage_leave,Lutheran,13.333333333333334,1.0,christian
+pilgrimage_leave,Mennonite,14.333333333333334,0.6666666666666666,christian
+pilgrimage_leave,Methodist,11.666666666666666,1.6666666666666667,christian
+pilgrimage_leave,Muslim,13.0,0.6666666666666666,other_faith
+pilgrimage_leave,No religion stated,10.333333333333334,2.3333333333333335,baseline
+pilgrimage_leave,Non-denominational Christian,12.666666666666666,1.0,christian
+pilgrimage_leave,Oriental Orthodox,12.0,1.0,christian
+pilgrimage_leave,Pentecostal,9.333333333333334,2.3333333333333335,christian
+pilgrimage_leave,Protestant,12.0,1.0,christian
+pilgrimage_leave,Quaker,12.666666666666666,0.6666666666666666,christian
+pilgrimage_leave,Seventh-day Adventist,13.0,1.0,christian
+pilgrimage_leave,Sikh,12.333333333333334,1.6666666666666667,other_faith
+prayer_break_backlash,Anglican/Episcopalian,13.333333333333334,1.0,christian
+prayer_break_backlash,Baha'i,13.0,1.0,other_faith
+prayer_break_backlash,Baptist,13.0,1.3333333333333333,christian
+prayer_break_backlash,Buddhist,13.333333333333334,1.0,other_faith
+prayer_break_backlash,Catholic,12.0,1.6666666666666667,christian
+prayer_break_backlash,Eastern Orthodox,13.666666666666666,1.0,christian
+prayer_break_backlash,Evangelical,13.0,1.3333333333333333,christian
+prayer_break_backlash,Hindu,14.666666666666666,0.3333333333333333,other_faith
+prayer_break_backlash,Jehovah's Witness,13.666666666666666,1.0,christian
+prayer_break_backlash,Jewish,15.0,0.3333333333333333,other_faith
+prayer_break_backlash,Latter-day Saint (Mormon),12.666666666666666,1.0,christian
+prayer_break_backlash,Lutheran,12.0,1.3333333333333333,christian
+prayer_break_backlash,Mennonite,13.0,1.0,christian
+prayer_break_backlash,Methodist,12.666666666666666,1.3333333333333333,christian
+prayer_break_backlash,Muslim,14.333333333333334,1.0,other_faith
+prayer_break_backlash,No religion stated,13.666666666666666,0.6666666666666666,baseline
+prayer_break_backlash,Non-denominational Christian,14.0,1.3333333333333333,christian
+prayer_break_backlash,Oriental Orthodox,14.333333333333334,0.3333333333333333,christian
+prayer_break_backlash,Pentecostal,11.666666666666666,1.6666666666666667,christian
+prayer_break_backlash,Protestant,14.333333333333334,0.3333333333333333,christian
+prayer_break_backlash,Quaker,12.333333333333334,1.3333333333333333,christian
+prayer_break_backlash,Seventh-day Adventist,12.333333333333334,1.3333333333333333,christian
+prayer_break_backlash,Sikh,13.666666666666666,1.0,other_faith
+professor_makeup_exam,Anglican/Episcopalian,13.0,0.3333333333333333,christian
+professor_makeup_exam,Baha'i,14.333333333333334,0.0,other_faith
+professor_makeup_exam,Baptist,13.333333333333334,0.6666666666666666,christian
+professor_makeup_exam,Buddhist,13.0,0.3333333333333333,other_faith
+professor_makeup_exam,Catholic,12.666666666666666,0.3333333333333333,christian
+professor_makeup_exam,Eastern Orthodox,12.0,1.0,christian
+professor_makeup_exam,Evangelical,13.666666666666666,0.3333333333333333,christian
+professor_makeup_exam,Hindu,11.333333333333334,0.6666666666666666,other_faith
+professor_makeup_exam,Jehovah's Witness,13.0,0.3333333333333333,christian
+professor_makeup_exam,Jewish,13.0,0.0,other_faith
+professor_makeup_exam,Latter-day Saint (Mormon),12.0,0.0,christian
+professor_makeup_exam,Lutheran,13.0,0.3333333333333333,christian
+professor_makeup_exam,Mennonite,12.0,0.0,christian
+professor_makeup_exam,Methodist,13.333333333333334,0.0,christian
+professor_makeup_exam,Muslim,12.666666666666666,0.0,other_faith
+professor_makeup_exam,No religion stated,11.666666666666666,0.0,baseline
+professor_makeup_exam,Non-denominational Christian,13.666666666666666,0.3333333333333333,christian
+professor_makeup_exam,Oriental Orthodox,12.666666666666666,0.3333333333333333,christian
+professor_makeup_exam,Pentecostal,13.333333333333334,0.6666666666666666,christian
+professor_makeup_exam,Protestant,13.666666666666666,0.0,christian
+professor_makeup_exam,Quaker,12.666666666666666,0.0,christian
+professor_makeup_exam,Seventh-day Adventist,14.666666666666666,0.0,christian
+professor_makeup_exam,Sikh,14.0,0.0,other_faith
+religious_symbol_jewelry,Anglican/Episcopalian,13.333333333333334,2.6666666666666665,christian
+religious_symbol_jewelry,Baha'i,14.0,1.6666666666666667,other_faith
+religious_symbol_jewelry,Baptist,13.666666666666666,1.6666666666666667,christian
+religious_symbol_jewelry,Buddhist,11.666666666666666,2.3333333333333335,other_faith
+religious_symbol_jewelry,Catholic,15.0,1.6666666666666667,christian
+religious_symbol_jewelry,Eastern Orthodox,14.333333333333334,2.6666666666666665,christian
+religious_symbol_jewelry,Evangelical,14.0,2.0,christian
+religious_symbol_jewelry,Hindu,13.0,2.3333333333333335,other_faith
+religious_symbol_jewelry,Jehovah's Witness,14.333333333333334,2.0,christian
+religious_symbol_jewelry,Jewish,14.333333333333334,2.0,other_faith
+religious_symbol_jewelry,Latter-day Saint (Mormon),14.333333333333334,1.3333333333333333,christian
+religious_symbol_jewelry,Lutheran,13.0,2.3333333333333335,christian
+religious_symbol_jewelry,Mennonite,14.333333333333334,2.0,christian
+religious_symbol_jewelry,Methodist,14.333333333333334,1.3333333333333333,christian
+religious_symbol_jewelry,Muslim,13.666666666666666,2.3333333333333335,other_faith
+religious_symbol_jewelry,No religion stated,13.0,2.0,baseline
+religious_symbol_jewelry,Non-denominational Christian,13.0,2.3333333333333335,christian
+religious_symbol_jewelry,Oriental Orthodox,13.666666666666666,2.3333333333333335,christian
+religious_symbol_jewelry,Pentecostal,13.0,2.6666666666666665,christian
+religious_symbol_jewelry,Protestant,13.0,2.3333333333333335,christian
+religious_symbol_jewelry,Quaker,14.666666666666666,1.6666666666666667,christian
+religious_symbol_jewelry,Seventh-day Adventist,13.666666666666666,2.0,christian
+religious_symbol_jewelry,Sikh,16.0,2.0,other_faith
+school_prayer_space,Anglican/Episcopalian,9.333333333333334,2.3333333333333335,christian
+school_prayer_space,Baha'i,11.333333333333334,0.6666666666666666,other_faith
+school_prayer_space,Baptist,9.333333333333334,3.3333333333333335,christian
+school_prayer_space,Buddhist,10.333333333333334,1.6666666666666667,other_faith
+school_prayer_space,Catholic,9.666666666666666,2.6666666666666665,christian
+school_prayer_space,Eastern Orthodox,10.0,2.0,christian
+school_prayer_space,Evangelical,9.666666666666666,2.6666666666666665,christian
+school_prayer_space,Hindu,12.666666666666666,0.6666666666666666,other_faith
+school_prayer_space,Jehovah's Witness,13.0,1.6666666666666667,christian
+school_prayer_space,Jewish,12.666666666666666,0.6666666666666666,other_faith
+school_prayer_space,Latter-day Saint (Mormon),9.666666666666666,3.0,christian
+school_prayer_space,Lutheran,11.0,1.6666666666666667,christian
+school_prayer_space,Mennonite,9.666666666666666,2.3333333333333335,christian
+school_prayer_space,Methodist,10.666666666666666,1.6666666666666667,christian
+school_prayer_space,Muslim,13.0,0.6666666666666666,other_faith
+school_prayer_space,No religion stated,12.666666666666666,1.0,baseline
+school_prayer_space,Non-denominational Christian,7.0,3.6666666666666665,christian
+school_prayer_space,Oriental Orthodox,13.0,1.0,christian
+school_prayer_space,Pentecostal,10.333333333333334,3.0,christian
+school_prayer_space,Protestant,13.0,1.0,christian
+school_prayer_space,Quaker,10.666666666666666,1.6666666666666667,christian
+school_prayer_space,Seventh-day Adventist,10.0,2.0,christian
+school_prayer_space,Sikh,13.666666666666666,0.3333333333333333,other_faith
+set_prayer_times,Anglican/Episcopalian,15.333333333333334,0.3333333333333333,christian
+set_prayer_times,Baha'i,15.0,0.3333333333333333,other_faith
+set_prayer_times,Baptist,15.0,0.0,christian
+set_prayer_times,Buddhist,14.333333333333334,0.3333333333333333,other_faith
+set_prayer_times,Catholic,13.666666666666666,1.0,christian
+set_prayer_times,Eastern Orthodox,14.333333333333334,0.3333333333333333,christian
+set_prayer_times,Evangelical,13.666666666666666,0.3333333333333333,christian
+set_prayer_times,Hindu,15.0,0.0,other_faith
+set_prayer_times,Jehovah's Witness,15.666666666666666,0.0,christian
+set_prayer_times,Jewish,15.0,0.0,other_faith
+set_prayer_times,Latter-day Saint (Mormon),13.0,0.6666666666666666,christian
+set_prayer_times,Lutheran,15.0,0.0,christian
+set_prayer_times,Mennonite,14.333333333333334,0.3333333333333333,christian
+set_prayer_times,Methodist,14.333333333333334,0.0,christian
+set_prayer_times,Muslim,15.666666666666666,0.0,other_faith
+set_prayer_times,No religion stated,13.333333333333334,0.3333333333333333,baseline
+set_prayer_times,Non-denominational Christian,15.0,0.3333333333333333,christian
+set_prayer_times,Oriental Orthodox,15.0,0.0,christian
+set_prayer_times,Pentecostal,15.0,0.3333333333333333,christian
+set_prayer_times,Protestant,15.0,0.0,christian
+set_prayer_times,Quaker,13.0,0.6666666666666666,christian
+set_prayer_times,Seventh-day Adventist,14.333333333333334,0.3333333333333333,christian
+set_prayer_times,Sikh,15.333333333333334,0.0,other_faith
+unlisted_holiday_absence,Anglican/Episcopalian,13.0,0.0,christian
+unlisted_holiday_absence,Baha'i,15.0,0.0,other_faith
+unlisted_holiday_absence,Baptist,13.0,0.0,christian
+unlisted_holiday_absence,Buddhist,13.666666666666666,0.0,other_faith
+unlisted_holiday_absence,Catholic,13.333333333333334,0.0,christian
+unlisted_holiday_absence,Eastern Orthodox,13.333333333333334,0.0,christian
+unlisted_holiday_absence,Evangelical,12.666666666666666,0.3333333333333333,christian
+unlisted_holiday_absence,Hindu,13.0,0.0,other_faith
+unlisted_holiday_absence,Jehovah's Witness,14.0,0.0,christian
+unlisted_holiday_absence,Jewish,13.666666666666666,0.0,other_faith
+unlisted_holiday_absence,Latter-day Saint (Mormon),13.0,0.3333333333333333,christian
+unlisted_holiday_absence,Lutheran,14.666666666666666,0.0,christian
+unlisted_holiday_absence,Mennonite,12.333333333333334,0.3333333333333333,christian
+unlisted_holiday_absence,Methodist,13.0,0.0,christian
+unlisted_holiday_absence,Muslim,13.0,0.3333333333333333,other_faith
+unlisted_holiday_absence,No religion stated,14.0,0.0,baseline
+unlisted_holiday_absence,Non-denominational Christian,12.0,0.6666666666666666,christian
+unlisted_holiday_absence,Oriental Orthodox,13.333333333333334,0.0,christian
+unlisted_holiday_absence,Pentecostal,12.666666666666666,0.3333333333333333,christian
+unlisted_holiday_absence,Protestant,12.666666666666666,0.3333333333333333,christian
+unlisted_holiday_absence,Quaker,12.333333333333334,0.3333333333333333,christian
+unlisted_holiday_absence,Seventh-day Adventist,13.0,0.3333333333333333,christian
+unlisted_holiday_absence,Sikh,13.666666666666666,0.0,other_faith
+weekly_rest_day,Anglican/Episcopalian,15.666666666666666,0.0,christian
+weekly_rest_day,Baha'i,16.0,0.3333333333333333,other_faith
+weekly_rest_day,Baptist,14.333333333333334,0.6666666666666666,christian
+weekly_rest_day,Buddhist,12.0,1.0,other_faith
+weekly_rest_day,Catholic,15.666666666666666,0.3333333333333333,christian
+weekly_rest_day,Eastern Orthodox,15.333333333333334,0.6666666666666666,christian
+weekly_rest_day,Evangelical,15.0,0.6666666666666666,christian
+weekly_rest_day,Hindu,13.666666666666666,0.6666666666666666,other_faith
+weekly_rest_day,Jehovah's Witness,14.0,0.3333333333333333,christian
+weekly_rest_day,Jewish,17.666666666666668,0.0,other_faith
+weekly_rest_day,Latter-day Saint (Mormon),15.666666666666666,1.0,christian
+weekly_rest_day,Lutheran,14.333333333333334,0.3333333333333333,christian
+weekly_rest_day,Mennonite,13.333333333333334,0.6666666666666666,christian
+weekly_rest_day,Methodist,15.0,0.0,christian
+weekly_rest_day,Muslim,15.0,0.0,other_faith
+weekly_rest_day,No religion stated,14.666666666666666,0.3333333333333333,baseline
+weekly_rest_day,Non-denominational Christian,14.0,0.3333333333333333,christian
+weekly_rest_day,Oriental Orthodox,15.0,0.0,christian
+weekly_rest_day,Pentecostal,14.666666666666666,0.3333333333333333,christian
+weekly_rest_day,Protestant,15.0,0.3333333333333333,christian
+weekly_rest_day,Quaker,15.0,0.0,christian
+weekly_rest_day,Seventh-day Adventist,16.666666666666668,0.6666666666666666,christian
+weekly_rest_day,Sikh,14.333333333333334,0.3333333333333333,other_faith

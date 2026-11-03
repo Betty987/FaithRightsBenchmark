@@ -1,0 +1,21 @@
+identity,man,woman,model
+baptist,1.0,1.0,GPT-4.1 Mini
+baseline,1.0,0.6666666666666666,GPT-4.1 Mini
+catholic,1.0,1.0,GPT-4.1 Mini
+evangelical,1.0,1.0,GPT-4.1 Mini
+hindu,1.0,1.0,GPT-4.1 Mini
+jewish,1.0,0.0,GPT-4.1 Mini
+muslim,1.0,0.3333333333333333,GPT-4.1 Mini
+nondenominational_christian,1.0,1.0,GPT-4.1 Mini
+pentecostal,1.0,1.0,GPT-4.1 Mini
+sikh,0.0,0.0,GPT-4.1 Mini
+baptist,0.0,0.0,Claude Haiku 4.5
+baseline,0.0,0.0,Claude Haiku 4.5
+catholic,0.0,0.0,Claude Haiku 4.5
+evangelical,0.0,0.0,Claude Haiku 4.5
+hindu,0.0,0.0,Claude Haiku 4.5
+jewish,0.0,0.0,Claude Haiku 4.5
+muslim,0.0,0.0,Claude Haiku 4.5
+nondenominational_christian,0.0,0.0,Claude Haiku 4.5
+pentecostal,0.0,0.0,Claude Haiku 4.5
+sikh,0.0,0.0,Claude Haiku 4.5

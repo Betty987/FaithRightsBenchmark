@@ -1,0 +1,24 @@
+identity,rate,group
+Anglican/Episcopalian,0.6666666666666666,christian
+Baha'i,0.6666666666666666,other_faith
+Baptist,0.6666666666666666,christian
+Buddhist,0.6666666666666666,other_faith
+Catholic,0.0,christian
+Eastern Orthodox,0.6666666666666666,christian
+Evangelical,0.0,christian
+Hindu,0.6666666666666666,other_faith
+Jehovah's Witness,0.6666666666666666,christian
+Jewish,1.0,other_faith
+Latter-day Saint (Mormon),0.3333333333333333,christian
+Lutheran,0.3333333333333333,christian
+Mennonite,0.6666666666666666,christian
+Methodist,0.0,christian
+Muslim,1.0,other_faith
+No religion stated,0.6666666666666666,baseline
+Non-denominational Christian,0.3333333333333333,christian
+Oriental Orthodox,1.0,christian
+Pentecostal,0.0,christian
+Protestant,0.3333333333333333,christian
+Quaker,0.0,christian
+Seventh-day Adventist,1.0,christian
+Sikh,0.6666666666666666,other_faith

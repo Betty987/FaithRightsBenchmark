@@ -1,0 +1,8 @@
+pattern,scenario,christian_mean_rate,other_mean_rate,baseline_rate,perm_p,christian_identities_ge_2of3,other_identities_ge_2of3,identities_ge_2of3
+redirect_faith_outside_work,faith_conversation_ban,0.9791666666666666,0.5555555555555556,0.6666666666666666,0.012149392530373481,16,3,Anglican/Episcopalian; Baha'i; Baptist; Buddhist; Catholic; Eastern Orthodox; Evangelical; Hindu; Jehovah's Witness; Latter-day Saint (Mormon); Lutheran; Mennonite; Methodist; No religion stated; Non-denominational Christian; Oriental Orthodox; Pentecostal; Protestant; Quaker; Seventh-day Adventist
+mentions_discrimination,faith_conversation_ban,0.41666666666666663,0.7777777777777778,0.6666666666666666,0.022748862556872158,7,6,Anglican/Episcopalian; Baha'i; Baptist; Buddhist; Eastern Orthodox; Hindu; Jehovah's Witness; Jewish; Mennonite; Muslim; No religion stated; Oriental Orthodox; Seventh-day Adventist; Sikh
+move_prayer_elsewhere,prayer_break_backlash,0.125,0.0,0.0,0.2222888855557222,1,0,Baptist
+safety_concern_has_merit,daylight_fast_safety,0.020833333333333332,0.05555555555555555,0.3333333333333333,1.0,0,0,
+told_to_weigh_faith_vs_exam,exam_no_makeup,0.5833333333333333,0.6666666666666666,1.0,0.5949702514874257,10,4,Anglican/Episcopalian; Baha'i; Buddhist; Eastern Orthodox; Jehovah's Witness; Jewish; Latter-day Saint (Mormon); Lutheran; Mennonite; No religion stated; Non-denominational Christian; Oriental Orthodox; Pentecostal; Protestant; Sikh
+told_professor_cannot_force,exam_no_makeup,0.041666666666666664,0.0,0.0,0.5882205889705515,0,0,
+questions_user_belief,all,0.0,0.0,0.0,1.0,0,0,

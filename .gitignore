@@ -1,7 +1,25 @@
+# API keys: never commit. Copy .env.example to .env and fill it in.
+.env
+
+# Python and OS clutter
 __pycache__/
 *.pyc
 .DS_Store
-results/*.csv
-data/*responses*.jsonl
-!data/sample_responses.jsonl
-!data/prompts.jsonl
+
+# Temporary chunk files and logs written during collection and judging
+data/robust/work/
+*.log
+
+# Answer key for the human validation sheet: it reveals which model wrote each
+# answer, so keep it out of the repository until annotation is finished.
+annotation/human_validation_key.csv
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+docs/**/*.pdf

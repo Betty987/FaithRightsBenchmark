@@ -1,0 +1,273 @@
+% FaithRightsBench -- ACL Rolling Review (ARR) submission draft.
+% Uses the official ACL style files (acl.sty, acl_natbib.bst) from
+% https://github.com/acl-org/acl-style-files
+% Compile: pdflatex main && bibtex main && pdflatex main && pdflatex main
+% (or upload this folder to Overleaf and compile main.tex).
+
+\documentclass[11pt]{article}
+
+% "review" adds line numbers and anonymises the paper, as ARR requires.
+% Use "final" for the camera-ready version.
+\usepackage[review]{acl}
+
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+% Draft notes; remove before submission.
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{FaithRightsBench: Does LLM Advice on Religious Accommodation\\Depend on the User's Religion?}
+
+% Author names are hidden in review mode; fill in for the camera-ready version.
+\author{Anonymous ACL submission}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\todo{Write last. 150--200 words: problem, design (19 scenarios $\times$ 23 religious identities, 2 models, 3 samples each), scoring, main findings, release.}
+\end{abstract}
+
+%======================================================================
+\section{Introduction}
+%======================================================================
+
+\todo{Motivation: people ask chatbots what to do when an employer or school refuses a religious accommodation; unequal advice by religion is a concrete harm. Research question; contributions (benchmark, rubric, repeated-sample audit, findings).}
+
+%======================================================================
+\section{Related Work}
+%======================================================================
+
+\todo{Religious bias in LLMs \citep{abid2021, abrar2025, wingate2026}; counterfactual identity audits \citep{garg2019, tamkin2023, haim2024, eloundou2025}; bias benchmarks \citep{parrish2022}; LLM-as-a-judge \citep{zheng2023, liu2023, kim2024, panickssery2024, wang2024}.}
+
+%======================================================================
+\section{Methodology}
+\label{sec:method}
+%======================================================================
+
+We use a counterfactual identity-substitution design \citep{garg2019, tamkin2023, haim2024, eloundou2025}: each prompt describes a fixed accommodation conflict, and only the user's stated religion changes between conditions. Because everything else in the prompt is identical, systematic differences in the advice can be attributed to the religion named.
+
+\subsection{Scenarios}
+\label{sec:scenarios}
+
+We wrote 19 scenarios in which a person's religious practice conflicts with a workplace or school rule (Table~\ref{tab:scenarios}; full text in Appendix~\ref{app:prompts}). They cover the main types of accommodation addressed in U.S.\ guidance for employers \citep{eeoc2021} and schools \citep{usdoe2024}: rest days and holidays, prayer, fasting, dress and grooming, religious symbols, dietary restrictions, religious expression, extended religious leave, and objections to coursework or exam dates. Thirteen scenarios are set at work and six at school.
+
+Seventeen scenarios are written in the first person (``I am \ldots What should I do?''). Two are written from the perspective of a decision-maker, a manager or a professor, who asks whether to grant an accommodation to an employee or student whose religion is stated in the prompt.
+
+Each scenario is \emph{contested}: an authority has already refused or restricted the practice, and the user asks what to do. In a pilot with neutral requests (e.g.\ asking how to request prayer time), both models gave uniformly supportive answers with little room for differences between religions. Contested scenarios require the model to decide whether to support the user's claim or the institution's position, which is where unequal treatment can appear.
+
+The practice is described generically (``My faith requires me to pray at set times'') rather than with faith-specific terms, so that identical text can be used for every identity. As a consequence, some practices are more typical of some faiths than others; we return to this in the analysis (\S\ref{sec:stats}) and in the Limitations.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}p{3.3cm}p{3.6cm}@{}}
+\toprule
+Scenario & Conflict \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Workplace (first person)}} \\
+Weekly day of rest & Required weekend shifts \\
+Set prayer times & Prayer only at lunch \\
+Daylight fast & Fast called a safety risk \\
+Head covering & Uniform bans head covering \\
+Forehead mark & Told to wash it off \\
+Religious symbol & No-jewelry rule \\
+Retail attire & Moved to stockroom \\
+Alcohol at client dinners & Refusal hurts promotion \\
+Banned from talking about faith & Faith talk banned, other topics allowed \\
+Pilgrimage leave & Three weeks refused \\
+Prayer-break backlash & Coworkers complain \\
+Holiday leave denied & Coworkers already off \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{School (first person)}} \\
+Modest dress in PE & Shorts required or fail \\
+Prayer room refused & ``Favoring one religion'' \\
+Holiday not on school list & Absence unexcused \\
+Animal dissection & No alternative assignment \\
+Exam on a holy day & No make-up exams \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Decision-maker}} \\
+Manager decides on attire & Customers may find it unfamiliar \\
+Professor decides on exam & No-make-up policy \\
+\bottomrule
+\end{tabular}
+\caption{The 19 scenarios. Full prompts are in Appendix~\ref{app:prompts}.}
+\label{tab:scenarios}
+\end{table}
+
+\subsection{Identities}
+\label{sec:identities}
+
+Each scenario is instantiated with 23 identity conditions: 16 Christian denominations (Catholic, Eastern Orthodox, Oriental Orthodox, Protestant, Evangelical, Pentecostal, Baptist, Methodist, Lutheran, Anglican/Episcopalian, Non-denominational Christian, Seventh-day Adventist, Latter-day Saint, Jehovah's Witness, Mennonite, Quaker), six other faiths (Muslim, Jewish, Sikh, Hindu, Buddhist, Baha'i), and a baseline that states no religion. We include many Christian denominations because their practices differ considerably, for example in Sabbath observance, dress, and alcohol, so treating ``Christian'' as a single category could hide differences between them.
+
+The identity appears only in the first sentence: ``I am a(n) [identity] woman.'' The baseline uses ``I am a woman.'' In the decision-maker scenarios the identity describes the third party (``A new hire, a Sikh woman, \ldots''). The main study uses the woman version of every prompt; a smaller man-versus-woman comparison is described in \S\ref{sec:stats}. This yields $19 \times 23 = 437$ prompts.
+
+\subsection{Models and Generation}
+\label{sec:models}
+
+We evaluate GPT-4.1 Mini (\texttt{gpt-4.1-mini}, OpenAI API) and Claude Haiku 4.5 (\texttt{claude-haiku-4-5-20251001}, Anthropic API). Each prompt is sent as a single user turn without a system prompt, as a user would type it into a chat interface.
+
+LLM outputs vary between samples, so a single response per prompt can make a chance difference look like bias \citep{miller2024}. We therefore sample every prompt independently three times per model at temperature 0.7, giving $437 \times 3 = 1{,}311$ responses per model and 2,622 in total. The output limit was 1,024 tokens for Claude and the provider default for GPT; the longest response was 488 words, so no response was cut off. Responses were collected in October 2026.
+
+\subsection{Scoring Rubric}
+\label{sec:rubric}
+
+Each response is scored on 12 dimensions (Table~\ref{tab:rubric}), each on a four-level ordinal scale: 0 = absent, 1 = weak or passing mention, 2 = moderate and useful, 3 = strong, central and actionable. Six \emph{protective} dimensions capture advice that helps the user secure the accommodation, and six \emph{risk} dimensions capture content that weakens the user's position. We sum each group into a protective score and a risk score, each ranging from 0 to 18.
+
+The design follows established practice. EPITOME \citep{sharma2020} scores separate components of supportive responses on a short ordinal scale (none, weak, strong); we add a ``moderate'' level. The protective dimensions draw on accommodation guidance, namely reasonable accommodation, anti-discrimination protection and documenting requests \citep{eeoc2021, usdoe2024}, and on social-support coding \citep{cutrona1992}. The risk dimensions draw on documented failure modes in religious bias: stereotyping \citep{parrish2022}, associating religious practice with threat \citep{abid2021}, and questioning the sincerity of a belief, which is the legal standard for accommodation \citep{eeoc2021}. The rubric tells the judge not to penalise neutral legal phrases such as ``sincerely held religious belief''.
+
+For the two decision-maker scenarios, responses are scored from the point of view of the person requesting the accommodation. For example, advising the manager to refuse without considering accommodation lowers the protective score and raises burden shifting. The full rubric is in Appendix~\ref{app:rubric}.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}p{2.6cm}p{4.3cm}@{}}
+\toprule
+Dimension & Scored when the response\ldots \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Protective (sum 0--18, higher is better)}} \\
+Supportiveness & treats the concern as reasonable \\
+Rights-based guidance & cites rights, accommodation, policy or law \\
+Actionability & gives concrete next steps \\
+Institutional referral & points to HR, administration, legal aid, etc. \\
+Documentation advice & recommends written records \\
+Faith-specific accuracy & makes accurate, relevant faith claims \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Risk (sum 0--18, lower is better)}} \\
+Minimization & downplays the concern \\
+Burden shifting & tells the user to adapt, hide or give in, without rights or referral options \\
+Stereotype insertion & adds stereotypes not in the prompt \\
+Sincerity questioning & doubts the belief without reason \\
+Safety/security framing & frames the practice as a threat or disruption \\
+Religious accuracy error & makes false claims about the faith \\
+\bottomrule
+\end{tabular}
+\caption{Rubric dimensions, each scored 0--3.}
+\label{tab:rubric}
+\end{table}
+
+\subsection{LLM Judge}
+\label{sec:judge}
+
+Scoring with an LLM judge and a written rubric is standard practice and correlates well with human ratings \citep{zheng2023, liu2023, kim2024, arora2025}. The judge receives the user prompt, the identity and gender conditions, the response and the rubric, and returns the 12 scores and a one- or two-sentence rationale as JSON. Judging uses temperature 0.
+
+Because LLM judges tend to favour their own outputs \citep{panickssery2024, wang2024}, we use cross-model judging: Claude Haiku 4.5 scores GPT-4.1 Mini's responses and GPT-4.1 Mini scores Claude Haiku 4.5's responses. Every religion is therefore scored by the same judge within a model, so comparisons between religions are not affected by differences between the judges.
+
+The judge sees the identity label, which it needs to assess faith-specific accuracy. This means the judge's own biases could affect the scores; we discuss this in the Limitations.
+
+\paragraph{Judge agreement.} To estimate how much the scores depend on the choice of judge, we drew a random sample of 115 run-1 responses per model, five per identity across all scenarios, and scored them with the second judge as well. For each dimension we report exact agreement and quadratic-weighted Cohen's kappa \citep{cohen1968}; for the two totals we report Spearman correlation and the mean difference between judges.
+
+Protective totals agree closely: $\rho = 0.84$ for GPT-4.1 Mini's responses and $0.80$ for Claude Haiku 4.5's, and the two judges' mean scores differ by less than 0.05 points. Risk totals agree less well ($\rho = 0.60$ and $0.67$), and Claude is the stricter judge of risk for \emph{both} models' responses, including its own. We therefore compare risk scores between religions within a model, but do not compare risk levels between the two models. Per-dimension results are in Appendix~\ref{app:agreement}.
+
+\paragraph{Human validation.} Two annotators will score 60 responses (30 per model, covering all 23 identities, with the model hidden) using the same rubric. \todo{Report human--judge agreement once annotation is complete.}
+
+\subsection{Advice-Pattern Analysis}
+\label{sec:patterns}
+
+Rubric totals can hide qualitatively different advice. We therefore also detect specific advice types with regular expressions over the response text. The patterns were defined from the single-sample pilot \emph{before} the repeated samples were collected:
+\begin{itemize}[leftmargin=*,itemsep=0pt]
+\item telling the user to keep their faith outside work;
+\item mentioning discrimination;
+\item suggesting the user move their prayer elsewhere;
+\item agreeing that a safety concern ``has merit'';
+\item telling the user to weigh their faith against the exam;
+\item stating that the professor cannot force the choice;
+\item questioning what the user's faith requires.
+\end{itemize}
+For each identity we compute the share of its responses that contain the pattern, pooled over the 3 runs. We compare Christian and other-faith identities with a permutation test (below), and apply a Holm correction \citep{holm1979} across all 14 tests (7 patterns $\times$ 2 models).
+
+\subsection{Statistical Analysis}
+\label{sec:stats}
+
+\paragraph{Unit of analysis.} A \emph{cell} is one scenario--identity combination. Its score is the mean of the 3 runs. Each model therefore has 437 cells: 19 scenarios $\times$ 23 identities. Because there are only 19 scenarios and 22 religions, we use non-parametric and resampling methods, which do not rely on large-sample approximations \citep{bowyer2025, miller2024}.
+
+\paragraph{Run-to-run variability.} For each cell we report the standard deviation (SD) of the 3 run scores (sample SD, $n-1$ denominator), and we average these SDs per scenario and per model. We also measure response-level reliability with the one-way intraclass correlation ICC(1) \citep{shrout1979}. Finally, we compute the Spearman correlation of the 23 identity means between each pair of runs, which shows whether the \emph{ranking} of religions repeats from run to run.
+
+\paragraph{Does the identity matter?} We use a Friedman test \citep{friedman1937}, with scenarios as blocks and the 23 identities as conditions, and report Kendall's $W$ as the effect size \citep{kendall1939}. For each scenario, we define the \emph{gap} as the highest cell mean minus the lowest. We compare the 19 per-scenario gaps of the two models with a Wilcoxon signed-rank test.
+
+\paragraph{Christian vs.\ other faiths.} We compare the mean of the 16 Christian identities with the mean of the 6 other faiths, excluding the baseline. Significance comes from a two-sided permutation test that randomly reassigns the identities between the two groups (20,000 permutations; \citealp{good2005}). The 95\% confidence interval comes from resampling scenarios with replacement (10,000 bootstrap samples; \citealp{efron1993}). We also compare each identity with the no-religion baseline using a Wilcoxon signed-rank test across scenarios, with a Holm correction over the 22 comparisons.
+
+\paragraph{Qualitative examples.} We show a pair of identities as an example only if one identity's score is higher than the other's in \emph{every} run (that is, the lower identity's best run is still below the higher identity's worst run). We also report the mean $\pm$ SD of each side, so that a single unusual sample cannot produce an example.
+
+\paragraph{Gender subset.} To check whether gender interacts with religion, we re-ran 6 scenarios that involve dress, prayer, fasting, alcohol or faith talk with ``man'' in place of ``woman''. We used 10 identities (Muslim, Jewish, Sikh, Hindu, Catholic, Baptist, Pentecostal, Evangelical, Non-denominational Christian, no religion), with 3 runs per model, giving 360 additional responses. Each man cell is paired with the woman cell for the identical prompt. We test the 60 paired differences with a Wilcoxon signed-rank test and report a bootstrap confidence interval.
+
+\paragraph{Reproducibility.} The analysis uses Python with SciPy and scikit-learn, with fixed random seeds. We will release the prompts, all responses, the judge outputs and the analysis scripts.
+
+%======================================================================
+\section{Results}
+\label{sec:results}
+%======================================================================
+
+\todo{Identity effect (Friedman, $W$); per-scenario gaps (4.1 vs.\ 2.3 points; GPT larger in 15 of 19, equal in 2); Christian vs.\ other faiths; run-to-run variability (mean cell SD 1.1 vs.\ 0.7; identity means vary by about 0.2 between runs); advice patterns (keep faith outside work: 98\% Christian vs.\ 56\% other faiths for GPT-4.1 Mini, permutation $p = 0.012$, Holm-corrected $p = 0.17$); qualitative examples with mean $\pm$ SD; gender subset.}
+
+%======================================================================
+\section{Discussion}
+%======================================================================
+
+\todo{Interpretation; Christian denominations differ from one another; Claude more even but not neutral (fasting, alcohol); implications.}
+
+%======================================================================
+\section{Conclusion}
+%======================================================================
+
+\todo{}
+
+%======================================================================
+\section*{Limitations}
+%======================================================================
+% Required by ARR; does not count towards the page limit.
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+\item \textbf{Two models.} We evaluate only two small commercial models; the results may not generalise to larger or open-weight models.
+\item \textbf{Plausibility of practices.} Practices are described generically, so some are more typical of some faiths (e.g.\ daylight fasting). Some differences may reflect how plausible the model finds the practice for that faith rather than bias against the faith. In the qualitative examples we highlight cases where neither faith typically holds the practice.
+\item \textbf{The judge is not blind to identity.} The judge sees the identity label. Cross-model judging and the agreement check reduce, but do not remove, the risk that the judge's own biases affect the scores. The human validation will help estimate this.
+\item \textbf{One wording, mostly one gender.} Each scenario uses one wording, and the main study uses only the woman version; gender is checked on a 60-prompt subset.
+\item \textbf{U.S.\ framing.} The scenarios and rubric follow U.S.\ accommodation law, so the results may not transfer to other legal systems.
+\item \textbf{Three samples.} Three samples per prompt reduce but do not remove sampling noise, especially for individual cells.
+\end{itemize}
+
+%======================================================================
+\section*{Ethics Statement}
+%======================================================================
+
+\todo{No human subjects in the main study (annotators: consent and pay); identities are self-described and do not refer to real people; the benchmark is intended for auditing, not for ranking religions.}
+
+\bibliography{custom}
+
+\appendix
+
+%======================================================================
+\section{Full Prompts}
+\label{app:prompts}
+%======================================================================
+
+The 19 scenarios, shown with the Sikh identity. Only the bold identity word changes between conditions; the baseline omits it (``I am a woman.'').
+
+\small
+\input{appendix_prompts}
+\normalsize
+
+%======================================================================
+\section{Judge Rubric}
+\label{app:rubric}
+%======================================================================
+
+\todo{Insert the full rubric from \texttt{data/judge\_rubric.md}, including the decision-maker instructions and the JSON output format.}
+
+%======================================================================
+\section{Judge Agreement}
+\label{app:agreement}
+%======================================================================
+
+\todo{Per-dimension exact agreement and weighted $\kappa$ (from \texttt{results/robust/stats/judge\_agreement.csv}).}
+
+\end{document}

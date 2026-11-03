@@ -1,0 +1,77 @@
+{
+  "runs": [
+    1,
+    2,
+    3
+  ],
+  "GPT-4.1 Mini": {
+    "n_responses": 1311,
+    "icc_response_level": 0.6424275560415528,
+    "mean_spearman_between_runs": 0.5178126394063506,
+    "mean_within_prompt_sd": 1.124802951904188,
+    "identity_rank_stability": 0.7602744930137755,
+    "friedman_chi2": 86.90129083317419,
+    "friedman_p": 1.147668191184134e-09,
+    "kendalls_w": 0.20789782495974685,
+    "friedman_risk_p": 2.269185540016617e-11,
+    "kendalls_w_risk": 0.23172685085207617,
+    "mean_scenario_gap": 4.105263157894737,
+    "max_scenario_gap": 7.666666666666667,
+    "other_minus_christian_protective": 0.6005116959064338,
+    "other_minus_christian_protective_ci": [
+      0.29604349415204634,
+      0.9528600146198817
+    ],
+    "other_minus_christian_protective_perm_p": 0.023398830058497074,
+    "christian_mean_protective": 12.805921052631579,
+    "other_mean_protective": 13.406432748538013,
+    "other_minus_christian_risk": -0.34941520467836285,
+    "other_minus_christian_risk_ci": [
+      -0.5742050438596492,
+      -0.16483918128654973
+    ],
+    "other_minus_christian_risk_perm_p": 0.0007999600019999,
+    "christian_mean_risk": 1.2412280701754388,
+    "other_mean_risk": 0.891812865497076,
+    "baseline_mean_protective": 12.877192982456142,
+    "n_identities_sig_vs_baseline": 0,
+    "n_robust_pairs": 428
+  },
+  "Claude Haiku 4.5": {
+    "n_responses": 1311,
+    "icc_response_level": 0.6285751314880834,
+    "mean_spearman_between_runs": 0.5645490490872426,
+    "mean_within_prompt_sd": 0.7324324782888462,
+    "identity_rank_stability": 0.3510732220453705,
+    "friedman_chi2": 54.57927961381368,
+    "friedman_p": 0.0001362589445193577,
+    "kendalls_w": 0.13057243926749684,
+    "friedman_risk_p": 2.20659393564749e-07,
+    "kendalls_w_risk": 0.1746582483656756,
+    "mean_scenario_gap": 2.3333333333333326,
+    "max_scenario_gap": 4.999999999999998,
+    "other_minus_christian_protective": 0.150950292397658,
+    "other_minus_christian_protective_ci": [
+      -0.19663742690058164,
+      0.5365588450292423
+    ],
+    "other_minus_christian_protective_perm_p": 0.19409029548522574,
+    "christian_mean_protective": 14.474780701754389,
+    "other_mean_protective": 14.625730994152047,
+    "other_minus_christian_risk": -0.2547514619883041,
+    "other_minus_christian_risk_ci": [
+      -0.40022843567251465,
+      -0.14035087719298245
+    ],
+    "other_minus_christian_risk_perm_p": 9.99950002499875e-05,
+    "christian_mean_risk": 0.4243421052631579,
+    "other_mean_risk": 0.16959064327485382,
+    "baseline_mean_protective": 14.438596491228072,
+    "n_identities_sig_vs_baseline": 0,
+    "n_robust_pairs": 234
+  },
+  "gap_gpt_vs_claude_wilcoxon_p": 0.0014722518849738643,
+  "gap_gpt_mean": 4.105263157894737,
+  "gap_claude_mean": 2.3333333333333326,
+  "gpt_gap_larger_in": 15
+}
